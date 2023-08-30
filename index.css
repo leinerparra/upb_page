@@ -1,0 +1,118 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Estilos específicos */
+.chirimia-info h2,
+.origins h2,
+.enfoque h2,
+.Yo h2,
+.Reconocimiento h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.chirimia-info p,
+.origins p,
+.enfoque p,
+.Yo p,
+.Reconocimiento p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.chirimia-image,
+.chirimia-alegria,
+.chirimia-yo,
+.chirimia-reco {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de encabezado */
+section {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+/* Estilos de pie de página */
+footer {
+    margin-top: 40px;
+}
+
+/* Estilos adicionales */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+}
+/* Estilos para la barra lateral */
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row; /* Cambia la dirección a horizontal */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #e9f0fd; /* Agrega el color de fondo */
+}
+
+.related-links h3 {
+    color: #007bff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.related-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row; /* Cambia la dirección a horizontal */
+}
+
+.related-links li {
+    margin-right: 16px; /* Espacio entre los enlaces */
+}
+
+.related-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.related-links a:hover {
+    color: #007bff;
+}
+
